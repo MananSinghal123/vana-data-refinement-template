@@ -2,6 +2,7 @@ from pydantic_settings import BaseSettings
 from pydantic import Field
 from typing import Optional
 
+#test change
 class Settings(BaseSettings):
     """Global settings configuration using environment variables"""
     
